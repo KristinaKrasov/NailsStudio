@@ -1,0 +1,21 @@
+.about {
+    height: 612px;
+    background-color: $bg-c;
+    padding: 90px 0;
+    &__nails {
+        padding: 0;
+        width: 432px;
+        height: 432px;
+        background-color: $sec-bg-c;
+        border-radius: 10px;
+        img {
+            margin: 16px;
+            width: 400px;
+            border-radius: 10px;
+        }
+    }
+    &__promo {
+        width: 528px;
+        padding-top: 24px;
+    }
+}

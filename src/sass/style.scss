@@ -1,6 +1,13 @@
+@import 'base/variables';
 * {
     font-family: 'Montserrat', sans-serif;
 }
-@import 'base/variables';
-@import 'blocks/menu';
+.container {
+    width: 1320px;
+}
 
+@import 'blocks/navbar';
+@import 'blocks/about';
+@import 'blocks/buttons';
+@import 'blocks/menu';
+@import 'blocks/text';
