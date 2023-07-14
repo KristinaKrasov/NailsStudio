@@ -1,16 +1,38 @@
 .text {
-    &__header {
-        color: $text-c;
+    color: $text-c;
+    font-weight: 700;
+    &_header {
         font-size: 36px;
-        font-weight: 700;
         text-transform: uppercase;
         margin-bottom: 20px;
     }
-    &__descr {
-        color: $text-c;
+    &_title {
+        text-align: center;
+        font-size: 32px;
+        text-transform: uppercase;
+    }
+    &_subtitle {
+        font-size: 20px;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    &_descr {
         font-size: 16px;
         font-weight: 400;
         line-height: 24px;
-        margin-bottom: 10px;
+        span {
+            font-size: 20px;
+            font-weight: 500;
+            text-transform: uppercase;
+        }
     }
+}
+.mb10px {
+    margin-bottom: 10px;
+}
+.mt50px {
+    margin-top: 50px;
+}
+.mt20px {
+    margin-top: 20px;
 }

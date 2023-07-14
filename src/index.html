@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
@@ -41,18 +43,119 @@
                             <img src="img/nails.png" alt="nails">
                         </div>
                         <div class="about__promo col-md-5 offset-md-1">
-                            <h1 class="text__header">WELCOME TO NAILSNAILS</h1>
-                            <p class="text__descr">Here at NAILSNAILS Studio, we offer the most elite experiences when it comes to therapeutic and revitalizing treatments for your nails and skin.</p>
-                            <p class="text__descr">Our team here at NAILSNAILS are highly trained and licensed professionals. All of our implements are sterilized in our autoclave machine all throughout the day. We disposed files and buffers after each use. All pedicure procedures are performed with liner protection. Your health and safety is our mission to keep our customer satisfaction.</p>
+                            <h1 class="text text_header">WELCOME TO NAILSNAILS</h1>
+                            <p class="text text_descr mb10px">Here at NAILSNAILS Studio, we offer the most elite experiences when it comes to therapeutic and revitalizing treatments for your nails and skin.</p>
+                            <p class="text text_descr">Our team here at NAILSNAILS are highly trained and licensed professionals. All of our implements are sterilized in our autoclave machine all throughout the day. We disposed files and buffers after each use. All pedicure procedures are performed with liner protection. Your health and safety is our mission to keep our customer satisfaction.</p>
                             <button class="btn">Booking</button>
                         </div>
                     </div>
                 </div>
             </header>
+            <section class="carusel">
+                <div class="carusel__wrapper">
+                    <div>
+                        <img src="img/reception.jpeg" alt="reception">
+                    </div>
+                    <div>
+                        <img src="img/reception_front.jpeg" alt="reception">
+                    </div>
+                    <div>
+                        <img src="img/gel.jpeg" alt="gelPolish">
+                    </div>
+                    <div>
+                        <img src="img/manicure.jpeg" alt="manicureHall">
+                    </div>
+                    <div>
+                        <img src="img/pedicure.jpeg" alt="pedicureHall">
+                    </div>
+                </div>
+            </section>
+            <section class="services">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <h2 class="text text_title">Services & Prices</h2>
+                        <div class="list_services col-md-10">
+                            <ul class="menu">
+                                <li class="menu_item">
+                                    <a class="menu_link active" data-bs-toggle="collapse" href="#MANICURE" role="button" aria-expanded="true" aria-controls="MANICURE">MANICURE</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-bs-toggle="collapse" href="#PEDICURES" role="button" aria-expanded="true" aria-controls="PEDICURES">PEDICURES</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-bs-toggle="collapse" href="#WAXING" role="button" aria-expanded="true" aria-controls="WAXING">WAXING</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-bs-toggle="collapse" href="#FACIAL" role="button" aria-expanded="true" aria-controls="FACIAL">FACIAL</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" data-bs-toggle="collapse" href="#EYELASHES" role="button" aria-expanded="true" aria-controls="EYELASHES">EYELASHES</a>
+                                </li>
+                            </ul>
+                            <div class="collapse show" id="MANICURE">
+
+                            </div>
+                            <div class="collapse show" id="PEDICURES">
+
+                            </div>
+                            <div class="collapse show" id="WAXING">
+
+                            </div>
+                            <div class="collapse show" id="FACIAL">
+
+                            </div>
+                            <div class="collapse show" id="EYELASHES">
+
+                            </div>
+                        
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="policy">
+                <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="policy__descr col-md-8">
+                            <h2 class="text text_title">Policy</h2>
+                            <p class="text text_descr mt50px">
+                                If you are not entirely satisfied with your service, please call and schedule a redo appointment. You must arrange an appointment to have your nails fixed within seven days for gel polish/dipping services and three days for all other services after your initial service date. We do not accept redo appointments after seven/three days of your initial services. If you could not come back within 7 days, please let us know. We are glad to help resolve the issues.
+                                <br><br>
+                                We will redo any service if you are unsatisfied with the quality provided, given that you tell us immediately after the services have been performed.
+                                <br><br>
+                                As soon as you walk out the salon door, that means you have accepted and are happy with the services provided to you.
+                                <br><br>
+                                We will charge you for the cost of any repairs or replacements that we have to endure because of damages that happened outside of our salon. For example, if your nails or the finish of your nails are damaged (they are broken, chipped or starting to lift) we will charge you due to your own lack of care.
+                                <br><br>
+                                The redo policy does not cover a change in service or color.
+                                <br><br>
+                                <span>WE DO NOT OFFER REFUNDS FOR ANY SERVICES OR PRODUCTS..</span>
+                            </p>
+                            <h3 class="text text_subtitle mt20px">Rights to Refuse Service</h3>
+                            <p class="text text_descr">
+                                We reserve the right to refuse service to any guest for improper conduct, tardiness, no shows, or any other situation we deem inappropriate.
+                            </p>
+                            <h3 class="text text_subtitle">Personal things</h3>
+                            <p class="text text_descr">
+                                We are not responsible or liable for any lost, damaged or stolen things..
+                            </p>
+                            <h3 class="text text_subtitle">Gift card Policy</h3>
+                            <ul>
+                                <li class="text text_descr">Not be redeemed for cash and used for gratuity</li>
+                                <li class="text text_descr">Lost or stolen will not be replaced</li>
+                                <li class="text text_descr">Used for service or product at Beverly location only</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </section>
     </main>
 
-
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>

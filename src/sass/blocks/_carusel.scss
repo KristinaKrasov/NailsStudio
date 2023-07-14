@@ -1,0 +1,11 @@
+.carusel {
+    padding: 10px 0;
+    height: 370px;
+    background-color: $sec-bg-c;
+    &__wrapper {
+        height: 350px;
+        img {
+            height: 350px;
+        }
+    }
+}
