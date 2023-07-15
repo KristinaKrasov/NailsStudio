@@ -1,4 +1,40 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
 .services {
     padding: 90px 0;
     min-height: 755px;
+    background-color: $sec-bg-c;
+}
+.list {
+    margin: 0;
+    padding: 0;
+    margin-top: 50px;
+    &__services {
+        overflow: hidden;
+        min-height: 356px;
+        padding: 30px 110px;
+        border: 3px solid;
+        border-top: none;
+        border-color: $list-service-b;
+        border-radius: 0px 0px 30px 30px;
+    }
+}
+.service {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    &:first-child {
+        margin-top: 0;
+    }
+    &_descr {
+        margin-top: 5px;
+        width: 500px;
+    }
+    &_price {
+        width: 80px;
+        text-align: left;
+    }
 }
